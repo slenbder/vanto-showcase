@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in Vanto does not work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what Vanto did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Press ⌃⌘C
+        2. Copy …
+        3. Press ⌃⌘V in …
+  - type: input
+    id: versions
+    attributes:
+      label: Vanto and macOS versions
+      placeholder: Vanto 1.0 (1), macOS 15.3
+    validations:
+      required: true
+  - type: input
+    id: apps
+    attributes:
+      label: Apps involved
+      description: The app you copied from and the app you pasted into.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Keyboard layout, other hotkey tools (Raycast, BetterTouchTool, …), screenshots. Please do not post your license key.
