@@ -1,10 +1,18 @@
 # Changelog
 
-Vanto has not had a public release yet. This log records the development
-milestones leading to 1.0; released versions will be listed here and on the
-[Releases](../../releases) page.
+Released versions are listed here and on the [Releases](../../releases) page.
 
-## Unreleased
+## 1.0.0 — 9 October 2026
+
+- First public release for Apple silicon Macs running macOS 13 or later.
+- Signed and notarized DMG available from the website and GitHub Releases.
+- FIFO queue for text, images, and files; reorder, drag out, or combine text
+  before pasting.
+- 14-day unrestricted trial; one-time license for up to three Macs, with
+  automatic future updates included.
+- Seven app and website languages. Sparkle update feed published.
+
+## Development history before 1.0.0
 
 ### September 2026
 
