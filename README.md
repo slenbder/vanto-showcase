@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://vanto.slenbder.com"><b>vanto.slenbder.com</b></a>
   &nbsp;·&nbsp; macOS 13+ &nbsp;·&nbsp; Apple silicon
+  &nbsp;·&nbsp; <a href="../../releases/tag/v1.0.0">Download 1.0.0</a>
   &nbsp;·&nbsp; <a href="CHANGELOG.md">Changelog</a>
   &nbsp;·&nbsp; <a href="ROADMAP.md">Roadmap</a>
   &nbsp;·&nbsp; <a href="docs/ARCHITECTURE.md">Architecture</a>
@@ -49,12 +50,12 @@ tracker. The application source code is private.
 
 ## Status
 
-Vanto is feature-complete for its first release and is going through release
-engineering: Developer ID signing, notarization, and the first update through
-the automatic updater. Join the launch waitlist at
-[vanto.slenbder.com](https://vanto.slenbder.com). Signed builds will be
-published on this repository's [Releases](../../releases) page and on the
-website. See the [roadmap](ROADMAP.md) for what is next.
+**Vanto 1.0.0 is available** for Apple silicon Macs running macOS 13 or later.
+Download the signed, notarized DMG from [GitHub Releases](../../releases/tag/v1.0.0)
+or [the Vanto website](https://vanto.slenbder.com). Both locations offer the
+same `Vanto-1.0.0.dmg`; its SHA-256 is
+`3273cb11cb8409979137984d6b08b2d514a8d5c2ef76057be6423f4ea5fdfee7`.
+See the [roadmap](ROADMAP.md) for what is next.
 
 A 14-day free trial with every feature starts at first launch; no account is
 needed to try it.
@@ -79,7 +80,7 @@ popover content. No web views, no Electron, no analytics in the app.
 | Files | Copied into per-item storage on capture, so the original filename survives and same-name files never collide |
 | Updates | Sparkle 2, fully automatic, EdDSA-signed archives |
 | Licensing | Local trial clock in Keychain; license checks tolerate being offline |
-| Quality | 100 unit tests behind dependency-injected seams for the pasteboard, keyboard layout, Keychain, network, and login items; CI on every pull request |
+| Quality | Automated unit tests behind dependency-injected seams for the pasteboard, keyboard layout, Keychain, network, and login items; CI on every pull request |
 
 Read more in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) and the reasoning
 behind the main choices in [docs/DECISIONS.md](docs/DECISIONS.md).
